@@ -27,6 +27,19 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
+  animation: expand .5s ease-in-out;
+  animation-name: expand;
 }
 
+@keyframes expand {
+  0% {
+    padding: 0;
+  }
+  75% {
+    padding: 10% 0%;
+  }
+  100% {
+    transform: 0;
+  }
+}
 
