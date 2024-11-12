@@ -1,5 +1,5 @@
 # Button Hover
-
+![alt text](desired-outcome.gif)
 Use a transition to scale the button when you hover your mouse over it.
 
 ## Desired Outcome
